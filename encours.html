@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animation de Chargement</title>
+<style>
+  #loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  #loading-text {
+    font-size: 24px;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  #loading-spinner {
+    animation: spin 1s linear infinite;
+  }
+</style>
+</head>
+<body>
+<div id="loading-container">
+  <div id="loading-spinner">⏳</div>
+  <div id="loading-text">En cours de création...</div>
+</div>
+<script>
+  // Vous pouvez ajouter des actions de chargement ici
+</script>
+</body>
+</html>
