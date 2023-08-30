@@ -1,0 +1,58 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+    overflow-x: hidden;
+    background-color: burlywood;
+}
+
+    header{
+        background-color: aqua;
+        margin-top: 0px;
+        height: 60px;
+    }
+
+    #header h1{
+    color: darkgoldenrod;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic; 
+}
+
+#header a{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container2 .box{
+    margin-top: 30px;
+    background: burlywood;
+    padding:10px;
+    display: grid;
+    font-size: 20px;
+    
+    /*place-items: center;
+    text-align: center;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: white;
+    transition: 0.5s;
+    
+    
+    
+
+}
+
+.container2 .box:hover{
+    /*background:rgb(18, 170, 18) ;*/
+    
+    cursor: pointer;
+}
+.container2 .box img{
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    
+}
